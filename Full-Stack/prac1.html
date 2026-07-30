@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter Post</title>
+
+<style>
+    body{
+        font-family: Arial;
+        background-color: #f2f2f2;
+    }
+
+    .tweet{
+        width: 700px;
+        background-color: white;
+        padding: 20px;
+        margin: 40px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .name{
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .username,
+    .time{
+        font-size: 28px;
+        color: gray;
+    }
+
+    .tweet-text{
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .mention{
+        color: rgb(29,155,240);
+        cursor: pointer;
+    }
+
+    .mention:hover{
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="tweet">
+
+    <p class="header">
+        <span class="name">freeCodeCamp.org</span>
+        <span class="username">@freeCodeCamp</span>
+        <span class="time">1h</span>
+    </p>
+
+    <p class="tweet-text">
+        As a web developer, you'll want to make your projects easy to use and navigate around.
+    </p>
+
+    <p class="tweet-text">
+        Here <span class="mention">@chp_it</span> outlines the top skills new developers should have.
+    </p>
+
+</div>
+
+</body>
+</html>
