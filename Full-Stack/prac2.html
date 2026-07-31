@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter Post</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:700px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    border:1px solid rgb(220,220,220);
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.name{
+    font-size:30px;
+    font-weight:bold;
+    margin-right:10px;
+}
+
+.username{
+    font-size:30px;
+    color:gray;
+    margin-right:10px;
+}
+
+.time{
+    font-size:30px;
+    color:gray;
+}
+
+.text{
+    font-size:24px;
+    line-height:40px;
+    margin-bottom:35px;
+}
+
+.tag{
+    color:rgb(29,155,240);
+}
+
+.tag:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+    <div class="header">
+        <span class="name">freeCodeCamp.org</span>
+        <span class="username">@freeCodeCamp</span>
+        <span class="time">1h</span>
+    </div>
+
+    <p class="text">
+        As a web developer, you'll want to make your projects easy to use and navigate around.
+    </p>
+
+    <p class="text">
+        Here <span class="tag">@chp_it</span> outlines the top skills new developers should have.
+    </p>
+
+</div>
+
+</body>
+</html>
